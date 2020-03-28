@@ -39,13 +39,14 @@ function initGL() {
     canvas = document.getElementById("glcanvas");
     canvas.width = canvas.clientWidth;
     canvas.height = canvas.clientHeight;
+    mousey = document.documentElement;
 
-    canvas.onmousemove = onMouseMove;
-    canvas.onmouseout = onMouseOut;
-    canvas.onmouseover = onMouseIn;
-    canvas.ontouchmove = onTouchMove;
-    canvas.ontouchend = onMouseOut;
-    canvas.ontouchstart = onTouchMove;
+    mousey.onmousemove = onMouseMove;
+    mousey.onmouseout = onMouseOut;
+    mousey.onmouseover = onMouseIn;
+    mousey.ontouchmove = onTouchMove;
+    mousey.ontouchend = onMouseOut;
+    mousey.ontouchstart = onTouchMove;
 
     window.onresize = onResize;
 

@@ -166,7 +166,7 @@
 
   <body class="app-background" data-controller="<%= params[:controller] %>" data-action="<%= params[:action] %>" data-relative-root="<%= Rails.configuration.relative_url_root || "/" %>">
 
-<canvas id="glcanvas"></canvas>
+
 
     <%= render "shared/header" %>
 
@@ -196,5 +196,6 @@
     </div>
 
     <%= render "shared/footer" %>
+    <canvas id="glcanvas"></canvas>
   </body>
 </html>
