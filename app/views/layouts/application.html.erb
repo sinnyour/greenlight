@@ -163,11 +163,8 @@
       window.I18nFallback = <%= fallback_translations.to_json.html_safe %>
     </script>
   </head>
-
+  <canvas id="glcanvas"></canvas>
   <body class="app-background" data-controller="<%= params[:controller] %>" data-action="<%= params[:action] %>" data-relative-root="<%= Rails.configuration.relative_url_root || "/" %>">
-
-
-
     <%= render "shared/header" %>
 
     <div class="wrapper">
@@ -196,6 +193,6 @@
     </div>
 
     <%= render "shared/footer" %>
-    <canvas id="glcanvas"></canvas>
+
   </body>
 </html>
