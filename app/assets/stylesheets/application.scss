@@ -46,6 +46,10 @@
 @import "sessions";
 @import "utilities/fonts";
 @import "users";
+@import "bootstrap.min.css";
+@import "flat-ui.min.css";
+@import "main-bg.css";
+
 
 * {
   outline: none !important;
@@ -56,7 +60,7 @@ html, body {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: black;
+  background: transparent;
 }
 
 a {

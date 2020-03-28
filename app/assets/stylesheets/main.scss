@@ -47,9 +47,9 @@
     text-align: center;
     span {
       font-size: 120%;
-      background-color: #ffffff;
+      background-color:$button-color-blue;
       padding: 0 10px;
-      color: #d3d3d3
+      color: #ffffff;
     }
   }
 }
@@ -61,7 +61,7 @@
 .customBtn {
   display: block;
   text-align: center;
-  background: #cccccc;
+  background: $button-color-blue;
   color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
   -webkit-transition: background-color .218s,border-color .218s,box-shadow .218s;
@@ -82,7 +82,7 @@
     vertical-align: middle;
     padding:13px 15px 13px 15px;
     float:left;
-    background: #ffffff;
+    background: $button-color-blue;
   }
 
   .customBtn-text {
@@ -94,7 +94,7 @@
   }
 
   .customBtn-image {
-    background: #ffffff;
+    background:$button-color-blue;
     background-size: 18px 18px;
     padding:10px 10px 10px 10px;
   }
