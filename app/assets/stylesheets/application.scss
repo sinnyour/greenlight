@@ -63,6 +63,9 @@ html, body {
   margin:0;
   background: transparent;
 }
+body {
+  overflow: scroll;
+}
 canvas {
   z-index: -9999;
   position: fixed;
